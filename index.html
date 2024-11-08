@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Room Player</title>
+</head>
+<body>
+    <div class="header">
+        <a href="#">Home</a>
+        <a href="#">Albums</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+    </div>
+    <div class="player-container">
+        <p class="main-type">Best Album</p>
+        <div class="album-cover">
+            <img src="./images/album-cover.jpg" alt="Album Cover">
+        </div>
+        <div class="track-list">
+            <h1>JACKPOT</h1>
+            <ul id="trackList">
+                <!-- Les titres sont générés dynamiquement ici -->
+            </ul>
+        </div>
+        <div class="controls">
+            <button id="prevTrack">⏮️</button>
+            <button id="playPause">▶️</button>
+            <button id="nextTrack">⏭️</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
