@@ -12,6 +12,32 @@ body {
     height: 100vh;
     background: linear-gradient(135deg, #f06, #4a90e2);
     color: white;
+    /*Changer le curseur de la souris avec le fichier cursor.png du dossier images*/
+}
+
+.artist-logo {
+    width: 96px;
+    /*Afficher l'image en haut à gauche*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 16px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 2s ease;
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-bottom: 32px;
+    margin-right: 32px;
+    transition: 250ms;
+}
+
+.artist-logo:hover {
+    width: 104px;
+    transform: rotate(8deg);
+    transition: 250ms;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
 }
 
 .header {
@@ -29,17 +55,18 @@ body {
     text-align: center;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-    animation: fadeIn 1s ease;
+    animation: fadeIn 2s ease;
     margin-right: 32px;
     margin-left: 32px;
     margin-top: 32px;
     display: flex;
+    text-shadow: 4px 4px 14px rgba(0, 0, 0, 1);
 }
 
 a {
     color: white;
     text-decoration: none;
-    transition: color 0.3s;
+    transition: 250ms;
     display: block;
     margin-right: 32px;
     margin-left: 32px;
@@ -49,13 +76,14 @@ a:hover {
     color: #4a90e2;
     font-size: 26px;
     transition: 250ms;
+    text-shadow: 0px 0px 14px rgba(0, 153, 255, 0.65);
 }
 
 .player-container {
     width: 80%;
     max-width: 600px;
     text-align: center;
-    animation: fadeIn 1s ease;
+    animation: fadeIn 2s ease;
 }
 
 .main-type {
@@ -72,6 +100,13 @@ a:hover {
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
     margin-top: 16px;
+    transition: 250ms;
+}
+
+.album-cover img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 250ms;
 }
 
 .track-list {
@@ -105,6 +140,10 @@ a:hover {
     text-shadow: 0px 0px 12px white;
     font-size: 18px;
     transition: 250ms;
+}
+
+.track-list li:active {
+    transform: scale(0.90);
 }
 
 .controls {

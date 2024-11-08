@@ -1,13 +1,13 @@
 const tracks = [
-    { title: "Searching Members", src: "audio/track1.mp3" },
-    { title: "Nocturn", src: "audio/track2.mp3" },
-    { title: "New Aura", src: "audio/track3.mp3" },
-    { title: "Look At The Sky", src: "audio/track4.mp3" },
-    { title: "Drive With Me", src: "audio/track5.mp3" },
-    { title: "Boreal", src: "audio/track6.mp3" },
-    { title: "Golden Reflections", src: "audio/track7.mp3" },
-    { title: "Tell Me What To Do", src: "audio/track8.mp3" },
-    { title: "5 Stars", src: "audio/track9.mp3" },
+    { title: "Searching Members", src: "audio/Searching Members.wav" },
+    { title: "Nocturn", src: "audio/Nocturn.wav" },
+    { title: "New Aura", src: "audio/New Aura.wav" },
+    { title: "Look At The Sky", src: "audio/Look At The Sky.wav" },
+    { title: "Drive With Me", src: "audio/Drive With Me.wav" },
+    { title: "Boreal", src: "audio/Boreal.wav" },
+    { title: "Golden Reflections", src: "audio/Golden Reflections.wav" },
+    { title: "Tell Me What To Do", src: "audio/Tell Me What To Do.wav" },
+    { title: "5 Stars", src: "audio/Synthetic Pulse.wav" },
 ];
 
 const trackListElement = document.getElementById("trackList");
